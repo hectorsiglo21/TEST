@@ -82,7 +82,7 @@ remove_all(){
 	sed -i '/net.ipv4.tcp_timestamps/d' /etc/sysctl.conf
 	sed -i '/net.ipv4.tcp_max_orphans/d' /etc/sysctl.conf
 	if [[ -e /appex/bin/lotServer.sh ]]; then
-		bash <(wget --no-check-certificate -qO- https://github.com/lacasitamx/lotServer-1/raw/master/Install.sh) uninstall
+		bash <(wget --no-check-certificate -qO- https://github.com/hectorsiglo21/TEST/lotServer-1/raw/main/Install.sh) uninstall
 	fi
 	clear
 	echo -e "${Info}:La aceleración está Desinstalada."
