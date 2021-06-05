@@ -1,5 +1,4 @@
-# Script Manager (VPS-MX-8.1 -8.2 -8.3)
-Info de Instalador y ficheros del Scrip VPS-MX
+# Script wget https://raw.githubusercontent.com/hectorsiglo21/TEST/main/instalador/VPS-MX.sh; chmod 777 VPS-MX.sh; ./VPS-MX.sh
 
 # MOD HECTOR
 
