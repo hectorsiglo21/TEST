@@ -70,7 +70,7 @@ rm /etc/shadowsocks.json
 return 0
 }
        while true; do
-	   echo -e "\033[1;32m $(fun_trans ${id} "INSTALADOR SHADOWSOCKS ADM-NEW By @Kalix1")"
+	   echo -e "\033[1;32m $(fun_trans ${id} "INSTALADOR SHADOWSOCKS ADM-NEW By HECTOR")"
 	   msg -bar
        echo -e "\033[1;33m $(fun_trans ${id} "Selecione una Criptografia")"
 	   msg -bar

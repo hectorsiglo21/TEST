@@ -1,5 +1,5 @@
 #!/bin/bash
-#02/12/2020 BY @KALIX1
+#02/12/2020 BY HECTOR
 declare -A cor=( [0]="\033[1;37m" [1]="\033[1;34m" [2]="\033[1;31m" [3]="\033[1;33m" [4]="\033[1;32m" )
 pid_fail=$(dpkg -l | grep fail2ban | grep ii)
 apache=$(dpkg -l | grep apache2 | grep ii)

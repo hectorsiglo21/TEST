@@ -192,7 +192,7 @@ MIP2=$(wget -qO- ipv4.icanhazip.com)
 function_verify () {
   permited=$(curl -sSL "https://raw.githubusercontent.com/hectorsiglo21/TEST/main/Control-IP")
   [[ $(echo $permited|grep "${IP}") = "" ]] && {
-  echo -e "\n\n\n\033[1;95m======================================================\n ¡ESTA KEY NO CONCUERDA CON EL INSTALADOR!,CONATACTE A @Kalix1\n======================================================\n"
+  echo -e "\n\n\n\033[1;95m======================================================\n ¡ESTA KEY NO CONCUERDA CON EL INSTALADOR!,CONATACTE A HECTOR\n======================================================\n"
   [[ -d /etc/newadm ]] && rm -rf /etc/newadm
   exit 1
   } || {
@@ -299,7 +299,7 @@ chmod +x ${ARQ}/$1
 
 NOTIFY () {
 msg -bar
-msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By @Kalix1 "
+msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By HECTOR "
 msg -bar
 echo -e "\033[1;94m Es una opcion para notificar cuando\n un usuario sea bloquedo o este expirado, e info de VPS."
 echo -e "\033[1;97m Deve usar el BOT de Telegram @Noti_VPSMX_Bot"
@@ -325,7 +325,7 @@ MSG="⚠️ AVISO DE VPS: $NOM1 ⚠️
 🔰 EXITOSO... SALUDOS"
 curl -s --max-time 10 -d "chat_id=$IDB2&disable_web_page_preview=1&text=$MSG" $URL &>/dev/null
 
-echo -e "\033[1;34mSE ENVIO MENSAJE DE PRUEBA SI NO LLEGA CONTACTE A @Kalix1 "
+echo -e "\033[1;34mSE ENVIO MENSAJE DE PRUEBA SI NO LLEGA CONTACTE A HECTOR "
 }
 fun_ip
 wget -O /usr/bin/trans https://raw.githubusercontent.com/hectorsiglo21/TEST/main/ArchivosUtilitarios/trans &> /dev/null
@@ -336,7 +336,7 @@ chmod +x /bin/monitor.sh
 wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/hectorsiglo21/TEST/main/ArchivosUtilitarios/Monitor-Service/estilos.css &> /dev/null
 msg -bar2
 msg -bar2
-msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
+msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By HECTOR ❌\033[1;33m ]"
 msg -ama "  \033[1;96m      🔰Usar Ubuntu 18 a 64 De Preferencia🔰 "
 msg -bar2
 [[ $1 = "" ]] && funcao_idioma || {
@@ -369,7 +369,7 @@ function_verify
 updatedb
 if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") ]]; then
    msg -bar2
-   msg -verd "$(source trans -b es:${id} " INSTALANDO"|sed -e 's/[^a-z -]//ig'): \033[1;31m[VPS-MX #MOD by @Kalix1]"
+   msg -verd "$(source trans -b es:${id} " INSTALANDO"|sed -e 's/[^a-z -]//ig'): \033[1;31m[VPS-MX #MOD by HECTOR]"
    REQUEST=$(ofus "$Key"|cut -d'/' -f2)
    [[ ! -d ${SCPinstal} ]] && mkdir ${SCPinstal}
    pontos="."

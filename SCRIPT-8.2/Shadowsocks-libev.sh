@@ -69,7 +69,7 @@ msg -bar
 rm /etc/shadowsocks-libev/config.json
 return 0
 }
-echo -e "${cor[3]}  INSTALADOR SHADOWSOCK-LIBEV+(obfs) By @Kalix1"
+echo -e "${cor[3]}  INSTALADOR SHADOWSOCK-LIBEV+(obfs) By HECTOR"
 msg -bar
 echo -e "${cor[1]} Escoja la opcion deseada."
 msg -bar

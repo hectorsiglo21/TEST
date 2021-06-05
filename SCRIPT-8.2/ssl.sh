@@ -1,5 +1,5 @@
 #!/bin/bash
-#02/12/2020 by @Kalix1
+#02/12/2020 by HECTOR
 declare -A cor=( [0]="\033[1;37m" [1]="\033[1;34m" [2]="\033[1;31m" [3]="\033[1;33m" [4]="\033[1;32m" )
 SCPfrm="/etc/ger-frm" && [[ ! -d ${SCPfrm} ]] && exit
 SCPinst="/etc/ger-inst" && [[ ! -d ${SCPinst} ]] && exit
@@ -121,7 +121,7 @@ rm -rf /root/stunnel.key > /dev/null 2>&1
 return 0
 }
 ssl_stunel_2 () {
-echo -e "\033[1;32m $(fun_trans  "INSTALADOR SSL By @Kalix1")"
+echo -e "\033[1;32m $(fun_trans  "INSTALADOR SSL By HECTOR")"
 msg -bar
 echo -e "\033[1;33m $(fun_trans  "Seleccione una puerta de redirección interna.")"
 echo -e "\033[1;33m $(fun_trans  "Es decir, un puerto en su servidor para SSL")"
@@ -164,7 +164,7 @@ return 0
 }
 clear
 msg -bar
-echo -e "${cor[3]}       INSTALADOR MONO Y MULTI SSL By @Kalix1"
+echo -e "${cor[3]}       INSTALADOR MONO Y MULTI SSL By HECTOR"
 msg -bar
 echo -e "${cor[1]} Escoja la opcion deseada."
 msg -bar
